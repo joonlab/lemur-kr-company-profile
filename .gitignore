@@ -1,0 +1,17 @@
+# OS / editor cruft
+.DS_Store
+**/.DS_Store
+.thumbnail
+
+# Internal working files (not for public repo)
+scratchpad.md
+screenshots/
+
+# PDF export — excluded from web deploy to keep the repo light
+*.pdf
+
+# image-slot drop sidecar (runtime only)
+.image-slots.state.json
+
+# Vercel
+.vercel
